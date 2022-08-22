@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.box1{
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    padding: 3px;
+}
+.box2{
+    width: 350px;
+    height: 300px;
+    border: 1px solid green;
+    padding: 3px;
+}
+.box3 .unti{
+    width: 400px;
+    padding: 5px;
+    border: 1px solid black;  
+    box-sizing: border-box; 
+    padding: 0px 40px;
+    border: none;
+.unti{
+    width: 400px;
+    box-sizing: border-box;
+}
+.fa-solid{
+    margin-left: 200px;
+}

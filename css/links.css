@@ -1,0 +1,21 @@
+*{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+    background-color: teal;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5%;
+}
+a:visited{
+    color: red;
+    background-color: green;
+}
+a:active{
+    color: white;
+    background-color: black;
+}
+a:hover{
+    color: yellow;
+}

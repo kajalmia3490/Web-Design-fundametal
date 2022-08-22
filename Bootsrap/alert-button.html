@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alert-button</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.min.js">
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-primary">Alert Message</div>
+        <div class="alert alert-secondary">Alert Secondary</div>
+        <div class="alert alert-info">Alert Info</div>
+        <div class="alert alert-danger">Alert Danger</div>
+        <div class="alert alert-warning">Alert Warning</div>
+
+        <div id="liveAlertPlaceholder"></div>
+        <div class="btn btn-primary" id="liveAlertBtn">
+            Show a message
+        </div>
+
+    </div>
+
+    <script>
+        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+const alert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    alert('Nice, you triggered this alert message!', 'success')
+  })
+}
+    </script>
+    
+<!-- create an alert message without javascript -->
+<div class="container">
+    <div class="alert alert-primary alert-dismissible fade show">
+    <span>
+        this is kajal from bhairab, kishoregonj. 
+    </span>
+    <div class="btn-close" data-bs-dismiss="alert"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

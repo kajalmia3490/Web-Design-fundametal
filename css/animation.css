@@ -1,0 +1,29 @@
+.animate{
+    width: 100px;
+    height: 100px;
+    background: red; 
+    animation-name: kajal;
+    animation-duration: 2s;
+}
+@keyframes kajal {
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: green;
+    }
+}
+.second-animate{
+    width: 150px;
+    height: 150px;
+    background: teal;
+    animation-name: mark;
+    animation-duration: 2s;
+}
+@keyframes mark{
+    0%{
+        background-color: red;
+        top: 0;
+        right: 200px;
+    }
+}

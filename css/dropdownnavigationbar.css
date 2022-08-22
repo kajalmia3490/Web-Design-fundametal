@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: black;
+}
+ul li{
+    font-size: large;
+    background-color: teal;
+    float: left;
+    display: inline-block;
+    padding: 7px 26px;
+}
+li{
+    border: 1px solid white;
+}
+.dropdown2 a{
+    padding: 7px;
+    color: white;
+    display: none;
+    min-width: 100px;
+}
+.dropdown:hover .dropdown2 a{
+    display: block;
+}
+.mark2 a{
+    display: none;
+    min-width: 100px;
+}
+.mark:hover .mark2 a{
+    display: block;
+    padding: 7px;
+}
+.part3 a{
+    display: none;
+    min-width: 100px;
+}
+.part1:hover .part3 a{
+    display: block;
+    color: white;
+    padding: 7px;
+}
+.three a{
+    display: none;
+    min-width: 100px;
+}
+.one:hover .three a{
+    display: block;
+    padding: 7px;
+}
+

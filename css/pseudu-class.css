@@ -1,0 +1,22 @@
+*{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+a:hover{
+    color: white;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 10px;
+}
+h3:nth-child(3):hover{
+    color: white;
+    background-color: blue;
+    padding: 5px;
+}
+p:hover{
+    font-size: large;
+    color: white;
+    background-color: brown;
+    padding: 5px;
+}

@@ -1,0 +1,24 @@
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    padding: 0;
+    margin: auto;
+}
+.top-header-section{
+    display: flex;
+    background-color: violet;
+    padding: 15px;
+}
+.top-header-section-left{
+    text-align: left;
+}
+.top-header-section-right{
+    text-align: right;
+}
+.middle-section{
+    
+}

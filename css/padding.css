@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+h5{
+    text-align: right;
+}
+.a{
+    color: white;
+    background-color: teal;
+    padding: 1%;
+    border-radius: 20%;
+    font-weight: normal;
+}
+.b{
+    color: white;
+    background-color: teal;
+    padding: 1%;
+    border-radius: 20%;
+    font-weight: normal;
+}
+.c{
+    color: white;
+    background-color: teal;
+    padding: 1%;
+    border-radius: 20%;
+    font-weight: normal;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.mia{
+    padding-top: 15%;
+    padding-left: 8%;
+    font-size: 40px;
+}

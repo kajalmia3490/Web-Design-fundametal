@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header-left{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.input{
+    text-align: center;
+}

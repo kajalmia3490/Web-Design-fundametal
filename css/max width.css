@@ -1,0 +1,10 @@
+.first-comment{
+    border: 3px solid red;
+    margin: auto;
+    width: 800px;
+}
+.second-comment{
+    border: 3px solid teal;
+    margin: auto;
+    max-width: 800px;
+}

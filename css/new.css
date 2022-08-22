@@ -1,0 +1,11 @@
+.mark img{
+    width: 800px;
+    height: 500px;
+}
+@media screen and (max-width: 800px) {
+    .mark img{
+        width: 35%;
+        height: 35%;
+        border-color:8px solid red;
+    }
+}

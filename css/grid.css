@@ -1,0 +1,55 @@
+
+/* Experiment no: 01 */
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    margin: 0px 586px;
+    color: white;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
+.grid-item{
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.grid-item:hover{
+    color: white;
+    background-color: tomato;
+} 
+
+/* Experiment no:  02 */
+
+.grid-box{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    background-color: teal;
+    color: white;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin: 0px 572px;
+}
+.item{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+.item:hover{
+    color: black;
+    background-color: white;
+}
+.seperated{
+    color: black;
+    background-color: moccasin;
+}

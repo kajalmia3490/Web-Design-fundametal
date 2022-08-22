@@ -1,0 +1,45 @@
+.icons ul{
+    margin: 0;
+    padding: 0;
+}
+.icons ul li{
+    list-style-type: none;
+}
+.icons ul li a{
+    background-image: url('images/img13.webp');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 5px solid red;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.icons ul li:last-child{
+    margin: 0;
+}
+.icons{
+    overflow: hidden;
+}
+.icons ul li:hover a{
+    border-color: green;
+    transition: 0s;
+}
+.icons ul li:hover:nth-child(1) a{
+    background-position: 0px -200px;
+    transition: 1s;
+}
+.icons ul li:hover:nth-child(2) a{
+    background-position: 0px -200px;
+    transition: 1s;
+}
+.icons ul li:hover:nth-child(3) a{
+    background-position: 0px -200px;
+    transition: 2s;
+}
+.icons ul li:hover:nth-child(4) a{
+    background-position: 0px -200px;
+    transition: 2s;
+}

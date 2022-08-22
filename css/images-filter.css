@@ -1,0 +1,18 @@
+img{
+    width: 33%;
+}
+.blur{
+    filter: blur(2px);
+}
+.brightness{
+    filter: brightness(140%);
+}
+.opacity{
+    filter: opacity(60%);
+}
+.Saturate{
+    filter: saturate(45%);
+}
+.drop-shadow{
+    filter: drop-shadow(10px 10px 10px green);
+}

@@ -1,0 +1,31 @@
+h1{
+    color: tomato;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-shadow: 3px 2px teal;
+    text-decoration: underline;
+}
+p{
+    text-indent: 60px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+    word-spacing: 5px;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+    
+}
+h3{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+font{
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: large;
+    text-transform: capitalize;
+
+}

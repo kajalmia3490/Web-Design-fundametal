@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+crossorigin="anonymous">
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+crossorigin="anonymous"></script>
+<style>
+    .highlight{
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex flex-row">
+            <div class="highlight bg-danger">home</div>
+            <div class="highlight bg-danger">contact us</div>
+            <div class="highlight bg-danger">manege</div>
+            <div class="highlight bg-danger">about us</div>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="hightlight2">item1</div>
+            <div class="hightlight2">item2</div>
+            <div class="hightlight2">item3</div>
+            <div class="hightlight2">item4</div>
+        </div>
+        <div class="d-flex flex-column-reverse">
+            <div class="hightlight3">text1</div>
+            <div class="hightlight3">text2</div>
+            <div class="hightlight3">text3</div>
+            <div class="hightlight3">text4</div>
+        </div>
+        <div class="d-flex justify-content-start bg-danger text-white">
+            <div class="hightlight p-2">home</div>
+            <div class="hightlight p-2">managing</div>
+            <div class="hightlight p-2">documents</div>
+        </div>
+        <div class="d-flex justify-content-end text-white bg-dark">
+            <div class="hightlight1 p-2">tem1</div>
+            <div class="hightlight1 p-2">tem2</div>
+            <div class="hightlight1 p-2">tem3</div>
+        </div>
+        <div class="d-flex justify-content-between text-white bg-success">
+            <div class="hightlight2 p-2">item1</div>
+            <div class="hightlight2 p-2">item2</div>
+            <div class="hightlight2 p-2">item3</div>
+        </div>
+        <div class="d-flex justify-content-around bg-primary text-white">
+            <div class="hightlight3 p-2">div1</div>
+            <div class="hightlight3 p-2">div2</div>
+            <div class="hightlight3 p-2">div3</div>
+        </div>
+        <div class="d-flex justify-content-evenly bg-secondary text-white">
+            <div class="hightlight4 p-2">one</div>
+            <div class="hightlight4 p-2">two</div>
+            <div class="hightlight4 p-2">three</div>
+        </div>
+        <div class="d-flex align-item-start bg-info text-dark">
+            <div class="flag p-2">flex1</div>
+            <div class="flag p-2">flex2</div>
+            <div class="flag p-2">flex3</div>
+        </div>
+    </div>
+</body>
+</html>

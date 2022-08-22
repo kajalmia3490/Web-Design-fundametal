@@ -1,0 +1,49 @@
+body{
+    background-color: wheat;
+}
+*{
+    text-decoration: none;
+    margin: 5px 10px;
+}
+.first-section{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    overflow: scroll;
+    text-align: justify;
+    padding: 2%;
+    background-color: moccasin;
+
+}
+.second-section{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
+.third-section{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    overflow: auto;
+    text-align: justify;
+    padding: 1%;
+    background-color: white;
+    
+    /* overflow: auto;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: visible; */
+}
+.forth-section{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    
+}
+.fifth-section{
+    width: 300px;
+    display: inline-block;
+    padding: 0.5%;
+    background-color: white;
+
+}

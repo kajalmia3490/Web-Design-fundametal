@@ -1,0 +1,10 @@
+.pro{
+    width: 300px;
+    height: 200px;
+    background: gray;
+    margin: auto;
+    margin-top: 40px;
+}
+div{
+    color: white;
+}

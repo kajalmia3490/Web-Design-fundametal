@@ -1,0 +1,11 @@
+p::first-letter{
+    text-align: justify;
+    color: red;
+    font-size: 50px;
+}
+p.j::first-line{
+    color: tomato;
+}
+.j::before{
+    content: url(images/img13.webp);
+}

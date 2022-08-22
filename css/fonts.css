@@ -1,0 +1,15 @@
+h1{
+    font-family: tahoma;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+    font-variant: small-caps;
+    word-spacing: 3px;
+    line-height: 2;
+}
